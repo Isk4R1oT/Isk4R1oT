@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-label="Iskariot — AI Systems Engineer. Animated schematics of the serving and agent stack.">
+  <title>Iskariot — AI Systems Engineer</title>
+  <desc>Animated schematic plates: roofline. Illustrations of how these mechanisms behave — not benchmark results.</desc>
+
+  <defs>
+    <linearGradient id="plateFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151a23"/>
+      <stop offset="1" stop-color="#0f131a"/>
+    </linearGradient>
+    <linearGradient id="gSignal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f7a52"/><stop offset="1" stop-color="#4ade9a"/>
+    </linearGradient>
+    <linearGradient id="gCool" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c4a86"/><stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <linearGradient id="gWarn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6417"/><stop offset="1" stop-color="#f0b429"/>
+    </linearGradient>
+    <radialGradient id="atmos" cx="0.34" cy="0.02" r="0.85">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#070910" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-160%" width="220%" height="420%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="899" height="539" rx="12" fill="#070910" stroke="#1e242e"/>
+  <rect x="1" y="1" width="898" height="538" rx="12" fill="url(#atmos)"/>
+  <path d="M13 1.5 H887" stroke="#ffffff" stroke-opacity="0.07"/>
+
+  <g>
+    <text x="58" y="40" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="5.4" font-weight="500" fill="#7aa2f7">AI SYSTEMS ENGINEER</text>
+    <text x="56" y="88" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="11" font-weight="400" fill="#e8edf4">ISKARIOT</text>
+    <text x="58" y="114" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="0.2" font-weight="400" fill="#97a1af">inference · agent runtimes · evals · tracing · the product on top</text>
+
+    <g>
+      <rect x="620" y="30" width="224" height="80" rx="7" fill="url(#plateFill)" stroke="#1e242e"/>
+      <path d="M627 30.5 H837" stroke="#ffffff" stroke-opacity="0.05"/>
+      <text x="636" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">STACK</text>
+      <text x="704" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">SGLang · vLLM · Rust</text>
+      <text x="636" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">FOCUS</text>
+      <text x="704" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">AI infra, end to end</text>
+      <text x="636" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">BASE</text>
+      <text x="704" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">GMT+5 · remote</text>
+    </g>
+
+    <line x1="56" y1="136" x2="844" y2="136" stroke="#1e242e"/>
+
+    <g opacity="0">
+    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.05000;0.95000;1.00000" values="0;1;1;0"/>
+    <text x="56" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2.2" font-weight="500" fill="#e8edf4">THE ROOFLINE</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.05000;0.06667;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="189" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="0.1" font-weight="400" fill="#97a1af">arithmetic intensity decides the regime — and the batch decides the intensity</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.46111;0.47778;0.99889;1.00000" values="0;0;1;1;0"/><g>
+  <text x="844" y="171" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" letter-spacing="0.4" font-weight="700" fill="#4ade9a" text-anchor="end">201 → 295</text>
+  <text x="844" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766" text-anchor="end">ridge point, A100 → H100</text>
+</g></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.09444;0.11111;0.99889;1.00000" values="0;0;1;1;0"/>
+  <line x1="56" y1="438" x2="844" y2="438" stroke="#1e242e" stroke-width="1"/>
+  <line x1="56" y1="240" x2="56" y2="438" stroke="#1e242e" stroke-width="1"/>
+  <text x="56" y="232" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">attainable flop/s   ·   x: arithmetic intensity</text>
+</g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.11111;0.12778;0.99889;1.00000" values="0;0;1;1;0"/>
+    <path d="M56 434 L372 356 L844 356" fill="none" stroke="#4d5766" stroke-width="1.6" stroke-linejoin="round"/>
+    <line x1="372" y1="356" x2="372" y2="438" stroke="#4d5766" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="372" y="456" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766" text-anchor="middle">201</text>
+  </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.13889;0.15556;0.99889;1.00000" values="0;0;1;1;0"/>
+    <path d="M56 434 L556 278 L844 278" fill="none" stroke="#7aa2f7" stroke-width="2.2" stroke-linejoin="round"/>
+    <line x1="556" y1="278" x2="556" y2="438" stroke="#7aa2f7" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="556" y="456" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#7aa2f7" text-anchor="middle">295</text>
+  </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.18222;0.18889;0.25278;0.25833;0.99889;1.00000" values="0;0;1;1;0;0;0"/>
+      <text data-slot="batch" x="844" y="456" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#4ade9a" text-anchor="end">b 1</text>
+    </g><g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.27597;0.28264;0.34653;0.35208;0.99889;1.00000" values="0;0;1;1;0;0;0"/>
+      <text data-slot="batch" x="844" y="456" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#4ade9a" text-anchor="end">b 8</text>
+    </g><g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.36972;0.37639;0.44028;0.44583;0.99889;1.00000" values="0;0;1;1;0;0;0"/>
+      <text data-slot="batch" x="844" y="456" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#4ade9a" text-anchor="end">b 32</text>
+    </g><g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.46347;0.47014;0.53403;0.53958;0.99889;1.00000" values="0;0;1;1;0;0;0"/>
+      <text data-slot="batch" x="844" y="456" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#4ade9a" text-anchor="end">b 96</text>
+    </g><g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.55722;0.56389;0.62778;0.63333;0.99889;1.00000" values="0;0;1;1;0;0;0"/>
+      <text data-slot="batch" x="844" y="456" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#4ade9a" text-anchor="end">b 256</text>
+    </g>
+    <circle r="5.5" cx="56" cy="434" fill="#4ade9a" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.17778;0.18889;0.99889;1.00000" values="0;0;1;1;0"/>
+      <animate attributeName="cx" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.18889;0.46111;0.68889;0.99889;1.00000" values="56;56;556;804;804;56"/>
+      <animate attributeName="cy" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.18889;0.46111;0.68889;0.99889;1.00000" values="434;434;278;278;278;434"/>
+    </circle>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.62778;0.64444;0.99889;1.00000" values="0;0;1;1;0"/>
+      <text x="844" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#7aa2f7" text-anchor="end">the roof ignores model size</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.70556;0.72222;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="478" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.1" font-weight="400" fill="#4d5766">the regime is set by batch size, not by model size — this is where intuition fails first</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.73056;0.74722;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="498" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.1" font-weight="500" fill="#4ade9a">→  every sizing conversation I open starts at the ridge point, not at the parameter count</text></g>
+    <text x="844" y="526" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#2b3340" text-anchor="end">SCHEMATIC · NOT A BENCHMARK</text>
+  </g>
+
+    <line x1="56" y1="506" x2="844" y2="506" stroke="#161b24"/>
+    <rect x="56" y="519" width="2" height="7" rx="1" fill="#4d5766" opacity="0.3">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.01944;0.98056;1.00000" values="0.3;1;1;0.3"/>
+    </rect>
+  </g>
+</svg>

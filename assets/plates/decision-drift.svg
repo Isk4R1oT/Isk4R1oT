@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-label="Iskariot — AI Systems Engineer. Animated schematics of the serving and agent stack.">
+  <title>Iskariot — AI Systems Engineer</title>
+  <desc>Animated schematic plates: decision-drift. Illustrations of how these mechanisms behave — not benchmark results.</desc>
+
+  <defs>
+    <linearGradient id="plateFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151a23"/>
+      <stop offset="1" stop-color="#0f131a"/>
+    </linearGradient>
+    <linearGradient id="gSignal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f7a52"/><stop offset="1" stop-color="#4ade9a"/>
+    </linearGradient>
+    <linearGradient id="gCool" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c4a86"/><stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <linearGradient id="gWarn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6417"/><stop offset="1" stop-color="#f0b429"/>
+    </linearGradient>
+    <radialGradient id="atmos" cx="0.34" cy="0.02" r="0.85">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#070910" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-160%" width="220%" height="420%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="899" height="539" rx="12" fill="#070910" stroke="#1e242e"/>
+  <rect x="1" y="1" width="898" height="538" rx="12" fill="url(#atmos)"/>
+  <path d="M13 1.5 H887" stroke="#ffffff" stroke-opacity="0.07"/>
+
+  <g>
+    <text x="58" y="40" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="5.4" font-weight="500" fill="#7aa2f7">AI SYSTEMS ENGINEER</text>
+    <text x="56" y="88" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="11" font-weight="400" fill="#e8edf4">ISKARIOT</text>
+    <text x="58" y="114" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="0.2" font-weight="400" fill="#97a1af">inference · agent runtimes · evals · tracing · the product on top</text>
+
+    <g>
+      <rect x="620" y="30" width="224" height="80" rx="7" fill="url(#plateFill)" stroke="#1e242e"/>
+      <path d="M627 30.5 H837" stroke="#ffffff" stroke-opacity="0.05"/>
+      <text x="636" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">STACK</text>
+      <text x="704" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">SGLang · vLLM · Rust</text>
+      <text x="636" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">FOCUS</text>
+      <text x="704" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">AI infra, end to end</text>
+      <text x="636" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">BASE</text>
+      <text x="704" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">GMT+5 · remote</text>
+    </g>
+
+    <line x1="56" y1="136" x2="844" y2="136" stroke="#1e242e"/>
+
+    <g opacity="0">
+    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.05000;0.95000;1.00000" values="0;1;1;0"/>
+    <text x="56" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2.2" font-weight="500" fill="#e8edf4">DECISION DRIFT</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.05000;0.06667;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="189" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="0.1" font-weight="400" fill="#97a1af">the agent does not forget its decision — it confidently contradicts it</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.52476;0.54143;0.99889;1.00000" values="0;0;1;1;0"/><g>
+  <text x="844" y="171" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" letter-spacing="0.4" font-weight="700" fill="#4ade9a" text-anchor="end">every turn</text>
+  <text x="844" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766" text-anchor="end">constraints re-injected</text>
+</g></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.17222;0.18889;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="64" cy="300" r="3.2" fill="#4d5766"/>
+      
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.20175;0.21841;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="122.15384615384616" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="64" y1="300" x2="122.15384615384616" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.23127;0.24794;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="180.30769230769232" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="122.15384615384616" y1="300" x2="180.30769230769232" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.26079;0.27746;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="238.46153846153845" cy="300" r="5.4" fill="#4ade9a"/>
+      <line x1="180.30769230769232" y1="300" x2="238.46153846153845" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.29032;0.30698;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="296.61538461538464" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="238.46153846153845" y1="300" x2="296.61538461538464" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.31984;0.33651;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="354.7692307692308" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="296.61538461538464" y1="300" x2="354.7692307692308" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.34937;0.36603;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="412.9230769230769" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="354.7692307692308" y1="300" x2="412.9230769230769" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.37889;0.39556;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="471.0769230769231" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="412.9230769230769" y1="300" x2="471.0769230769231" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.40841;0.42508;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="529.2307692307693" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="471.0769230769231" y1="300" x2="529.2307692307693" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.43794;0.45460;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="587.3846153846154" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="529.2307692307693" y1="300" x2="587.3846153846154" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.46746;0.48413;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="645.5384615384615" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="587.3846153846154" y1="300" x2="645.5384615384615" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.49698;0.51365;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="703.6923076923077" cy="300" r="5.4" fill="#f0b429"/>
+      <line x1="645.5384615384615" y1="300" x2="703.6923076923077" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.52651;0.54317;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="761.8461538461538" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="703.6923076923077" y1="300" x2="761.8461538461538" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.55603;0.57270;0.99889;1.00000" values="0;0;1;1;0"/>
+      <circle cx="820" cy="300" r="3.2" fill="#4d5766"/>
+      <line x1="761.8461538461538" y1="300" x2="820" y2="300" stroke="#1e242e" stroke-width="1.4"/>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.27746;0.29413;0.99889;1.00000" values="0;0;1;1;0"/>
+      <line x1="238.46153846153845" y1="254" x2="238.46153846153845" y2="292" stroke="#4ade9a" stroke-width="1.4"/>
+      <rect x="164.46153846153845" y="226" width="148" height="28" rx="5" fill="url(#plateFill)" stroke="#4ade9a"/>
+      <text x="238.46153846153845" y="244" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#4ade9a" text-anchor="middle">DEC · locked in turn 4</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.51365;0.53032;0.99889;1.00000" values="0;0;1;1;0"/>
+      <line x1="703.6923076923077" y1="308" x2="703.6923076923077" y2="346" stroke="#f0b429" stroke-width="1.4"/>
+      <rect x="621.6923076923077" y="346" width="164" height="28" rx="5" fill="url(#plateFill)" stroke="#f0b429"/>
+      <text x="703.6923076923077" y="364" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#f0b429" text-anchor="middle">proposes ledger v1</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.54698;0.56365;0.99889;1.00000" values="0;0;1;1;0"/>
+      <text x="844" y="244" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#f0b429" text-anchor="end">blocked · contradicts a live constraint</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.70556;0.72222;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="478" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.1" font-weight="400" fill="#4d5766">the failure mode is not amnesia — it is a confident reversal nobody notices for twenty turns</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.73056;0.74722;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="498" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.1" font-weight="500" fill="#4ade9a">→  I made decisions first-class objects and re-inject them every turn instead of trusting the window</text></g>
+    <text x="844" y="526" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#2b3340" text-anchor="end">SCHEMATIC · NOT A BENCHMARK</text>
+  </g>
+
+    <line x1="56" y1="506" x2="844" y2="506" stroke="#161b24"/>
+    <rect x="56" y="519" width="2" height="7" rx="1" fill="#4d5766" opacity="0.3">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.01944;0.98056;1.00000" values="0.3;1;1;0.3"/>
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "_comment": "Numbers on MEASURED plates come from Igor's own runs. Anything left as __FILL_ME__ renders as 'pending' and the plate is stamped UNVERIFIED instead of MEASURED — a fabricated number under a MEASURED stamp is the one thing this profile must never ship.",
+
+  "groupedGemm": {
+    "naivePercent": "__FILL_ME__",
+    "finalPercent": "__FILL_ME__",
+    "steps": ["naive", "coalesced", "tiled", "double-buffered", "warp-tuned"],
+    "note": "the last stretch cost as much as everything before it"
+  },
+
+  "moeServe": {
+    "oracle": "__FILL_ME__",
+    "conventions": [
+      { "name": "softmax → top-k", "models": "Mixtral · Qwen3-MoE", "correct": true },
+      { "name": "top-k → softmax", "models": "gpt-oss", "correct": false }
+    ]
+  },
+
+  "determinism": {
+    "bitwiseResult": "__FILL_ME__",
+    "note": "same seed, temp 0, batch composition varied"
+  },
+
+  "toolCalls": {
+    "before": "90 %",
+    "after": "98 %",
+    "note": "schema-aware validation before dispatch"
+  },
+
+  "quantFormula": {
+    "validated": "__FILL_ME__",
+    "note": "the agent proves its own arithmetic before it is allowed to act"
+  },
+
+  "fanOut": {
+    "subagents": "__FILL_ME__",
+    "note": "one orchestrator, capability-routed subagents"
+  },
+
+  "harness": {
+    "goldenTasks": "__FILL_ME__",
+    "note": "frozen tasks with mocked tools, replayed on every model change"
+  }
+}

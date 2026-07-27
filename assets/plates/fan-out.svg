@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-label="Iskariot — AI Systems Engineer. Animated schematics of the serving and agent stack.">
+  <title>Iskariot — AI Systems Engineer</title>
+  <desc>Animated schematic plates: fan-out. Illustrations of how these mechanisms behave — not benchmark results.</desc>
+
+  <defs>
+    <linearGradient id="plateFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151a23"/>
+      <stop offset="1" stop-color="#0f131a"/>
+    </linearGradient>
+    <linearGradient id="gSignal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f7a52"/><stop offset="1" stop-color="#4ade9a"/>
+    </linearGradient>
+    <linearGradient id="gCool" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c4a86"/><stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <linearGradient id="gWarn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6417"/><stop offset="1" stop-color="#f0b429"/>
+    </linearGradient>
+    <radialGradient id="atmos" cx="0.34" cy="0.02" r="0.85">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#070910" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-160%" width="220%" height="420%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="899" height="539" rx="12" fill="#070910" stroke="#1e242e"/>
+  <rect x="1" y="1" width="898" height="538" rx="12" fill="url(#atmos)"/>
+  <path d="M13 1.5 H887" stroke="#ffffff" stroke-opacity="0.07"/>
+
+  <g>
+    <text x="58" y="40" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="5.4" font-weight="500" fill="#7aa2f7">AI SYSTEMS ENGINEER</text>
+    <text x="56" y="88" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="11" font-weight="400" fill="#e8edf4">ISKARIOT</text>
+    <text x="58" y="114" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="0.2" font-weight="400" fill="#97a1af">inference · agent runtimes · evals · tracing · the product on top</text>
+
+    <g>
+      <rect x="620" y="30" width="224" height="80" rx="7" fill="url(#plateFill)" stroke="#1e242e"/>
+      <path d="M627 30.5 H837" stroke="#ffffff" stroke-opacity="0.05"/>
+      <text x="636" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">STACK</text>
+      <text x="704" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">SGLang · vLLM · Rust</text>
+      <text x="636" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">FOCUS</text>
+      <text x="704" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">AI infra, end to end</text>
+      <text x="636" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766">BASE</text>
+      <text x="704" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">GMT+5 · remote</text>
+    </g>
+
+    <line x1="56" y1="136" x2="844" y2="136" stroke="#1e242e"/>
+
+    <g opacity="0">
+    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.05000;0.95000;1.00000" values="0;1;1;0"/>
+    <text x="56" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2.2" font-weight="500" fill="#e8edf4">CAPABILITY FAN-OUT</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.05000;0.06667;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="189" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="0.1" font-weight="400" fill="#97a1af">picking the model per subagent beats writing a better prompt for one</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.55317;0.56984;0.99889;1.00000" values="0;0;1;1;0"/><g>
+  <text x="844" y="171" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" letter-spacing="0.4" font-weight="700" fill="#4d5766" text-anchor="end">pending</text>
+  <text x="844" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766" text-anchor="end">subagents, one orchestrator</text>
+</g></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.09444;0.11111;0.99889;1.00000" values="0;0;1;1;0"/>
+      <rect x="56" y="316" width="130" height="40" rx="6" fill="url(#plateFill)" stroke="#4ade9a"/>
+      <text x="121" y="341" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#4ade9a" text-anchor="middle">plan</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.17222;0.18889;0.99889;1.00000" values="0;0;1;1;0"/>
+      <path d="M190 336 C250 336, 258 268, 300 268" fill="none" stroke="#4d5766" stroke-width="1.6" opacity="0.8"/>
+      <rect x="300" y="256" width="420" height="24" rx="4" fill="url(#plateFill)" stroke="#4d5766"/>
+      <text x="314" y="273" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">market scan</text>
+      <text x="708" y="273" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766" text-anchor="end">haiku</text>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.22937;0.24603;0.99889;1.00000" values="0;0;1;1;0"/>
+      <path d="M190 336 C250 336, 258 298, 300 298" fill="none" stroke="#7aa2f7" stroke-width="1.6" opacity="0.8"/>
+      <rect x="300" y="286" width="420" height="24" rx="4" fill="url(#plateFill)" stroke="#7aa2f7"/>
+      <text x="314" y="303" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">signal synthesis</text>
+      <text x="708" y="303" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#7aa2f7" text-anchor="end">sonnet</text>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.28651;0.30317;0.99889;1.00000" values="0;0;1;1;0"/>
+      <path d="M190 336 C250 336, 258 328, 300 328" fill="none" stroke="#4ade9a" stroke-width="1.6" opacity="0.8"/>
+      <rect x="300" y="316" width="420" height="24" rx="4" fill="url(#plateFill)" stroke="#4ade9a"/>
+      <text x="314" y="333" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">risk argument</text>
+      <text x="708" y="333" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4ade9a" text-anchor="end">opus</text>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.34365;0.36032;0.99889;1.00000" values="0;0;1;1;0"/>
+      <path d="M190 336 C250 336, 258 358, 300 358" fill="none" stroke="#7aa2f7" stroke-width="1.6" opacity="0.8"/>
+      <rect x="300" y="346" width="420" height="24" rx="4" fill="url(#plateFill)" stroke="#7aa2f7"/>
+      <text x="314" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">position sizing</text>
+      <text x="708" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#7aa2f7" text-anchor="end">sonnet</text>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.40079;0.41746;0.99889;1.00000" values="0;0;1;1;0"/>
+      <path d="M190 336 C250 336, 258 388, 300 388" fill="none" stroke="#4d5766" stroke-width="1.6" opacity="0.8"/>
+      <rect x="300" y="376" width="420" height="24" rx="4" fill="url(#plateFill)" stroke="#4d5766"/>
+      <text x="314" y="393" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">order shaping</text>
+      <text x="708" y="393" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#4d5766" text-anchor="end">haiku</text>
+    </g><g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.45794;0.47460;0.99889;1.00000" values="0;0;1;1;0"/>
+      <path d="M190 336 C250 336, 258 418, 300 418" fill="none" stroke="#7aa2f7" stroke-width="1.6" opacity="0.8"/>
+      <rect x="300" y="406" width="420" height="24" rx="4" fill="url(#plateFill)" stroke="#7aa2f7"/>
+      <text x="314" y="423" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.2" font-weight="400" fill="#97a1af">post-mortem</text>
+      <text x="708" y="423" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#7aa2f7" text-anchor="end">sonnet</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.70556;0.72222;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="478" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="0.1" font-weight="400" fill="#4d5766">reasoning is expensive in exactly three places and cheap everywhere else in the same task</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.73056;0.74722;0.99889;1.00000" values="0;0;1;1;0"/><text x="56" y="498" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.1" font-weight="500" fill="#4ade9a">→  I route Opus where the argument matters and Haiku where it does not, per subagent, not per app</text></g>
+    <text x="844" y="526" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.4" font-weight="400" fill="#8a6417" text-anchor="end">UNVERIFIED · AWAITING NUMBERS</text>
+  </g>
+
+    <line x1="56" y1="506" x2="844" y2="506" stroke="#161b24"/>
+    <rect x="56" y="519" width="2" height="7" rx="1" fill="#4d5766" opacity="0.3">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0.00000;0.01944;0.98056;1.00000" values="0.3;1;1;0.3"/>
+    </rect>
+  </g>
+</svg>
