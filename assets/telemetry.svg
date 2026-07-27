@@ -71,9 +71,9 @@
         <animate attributeName="height" values="0;1.5" dur="0.55s" begin="0.584s" fill="freeze"/>
         <animate attributeName="y" values="178;176.5" dur="0.55s" begin="0.584s" fill="freeze"/>
       </rect>
-      <rect x="194.0" y="175.3" width="8.5" height="2.7" rx="1" fill="#238636">
-        <animate attributeName="height" values="0;2.7" dur="0.55s" begin="0.602s" fill="freeze"/>
-        <animate attributeName="y" values="178;175.3" dur="0.55s" begin="0.602s" fill="freeze"/>
+      <rect x="194.0" y="175.5" width="8.5" height="2.5" rx="1" fill="#238636">
+        <animate attributeName="height" values="0;2.5" dur="0.55s" begin="0.602s" fill="freeze"/>
+        <animate attributeName="y" values="178;175.5" dur="0.55s" begin="0.602s" fill="freeze"/>
       </rect>
       <rect x="204.8" y="174.9" width="8.5" height="3.1" rx="1" fill="#238636">
         <animate attributeName="height" values="0;3.1" dur="0.55s" begin="0.620s" fill="freeze"/>
