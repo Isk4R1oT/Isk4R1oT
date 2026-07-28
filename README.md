@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/fig-01-pipeline.svg" alt="Three regimes of the same serving engine: cold, warm and under load." width="100%">
+<img src="assets/fig-01-pipeline.gif" alt="Three regimes of the same serving engine: cold, warm and under load." width="100%">
 
 </div>
 
@@ -43,7 +43,7 @@ tool=search_index   args.k   8 → 12
 
 <div align="center">
 
-<img src="assets/fig-02-desk.svg" alt="Four acts: three positions, one refusal and one loss, each traced to a decision with a proof." width="100%">
+<img src="assets/fig-02-desk.gif" alt="Four acts: three positions, one refusal and one loss, each traced to a decision with a proof." width="100%">
 
 </div>
 
