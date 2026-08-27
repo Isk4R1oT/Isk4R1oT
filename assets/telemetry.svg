@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="290" viewBox="0 0 900 290" role="img" aria-label="Contribution telemetry">
-  <title>Contribution telemetry — 5773 contributions, 2025-08-24 to 2026-08-26</title>
+  <title>Contribution telemetry — 5809 contributions, 2025-08-24 to 2026-08-27</title>
   <defs>
     <pattern id="tgrid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0 L0 0 0 30" fill="none" stroke="#161b22" stroke-width="1"/>
@@ -10,7 +10,7 @@
 
   <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
     <text x="44" y="42" font-size="11" letter-spacing="2.4" fill="#8b949e">CONTRIBUTION TELEMETRY</text>
-    <text x="856" y="42" text-anchor="end" font-size="10" letter-spacing="1.2" fill="#484f58">2025-08-24 → 2026-08-26</text>
+    <text x="856" y="42" text-anchor="end" font-size="10" letter-spacing="1.2" fill="#484f58">2025-08-24 → 2026-08-27</text>
     <line x1="44" y1="54" x2="856" y2="54" stroke="#21262d"/>
 
     <!-- weekly contribution bars -->
@@ -219,13 +219,13 @@
         <animate attributeName="height" values="0;28.2" dur="0.55s" begin="1.250s" fill="freeze"/>
         <animate attributeName="y" values="178;149.8" dur="0.55s" begin="1.250s" fill="freeze"/>
       </rect>
-      <rect x="590.6" y="139.4" width="8.5" height="38.6" rx="1" fill="#238636">
-        <animate attributeName="height" values="0;38.6" dur="0.55s" begin="1.268s" fill="freeze"/>
-        <animate attributeName="y" values="178;139.4" dur="0.55s" begin="1.268s" fill="freeze"/>
+      <rect x="590.6" y="139.0" width="8.5" height="39.0" rx="1" fill="#238636">
+        <animate attributeName="height" values="0;39.0" dur="0.55s" begin="1.268s" fill="freeze"/>
+        <animate attributeName="y" values="178;139.0" dur="0.55s" begin="1.268s" fill="freeze"/>
       </rect>
-      <rect x="601.3" y="172.4" width="8.5" height="5.6" rx="1" fill="#238636">
-        <animate attributeName="height" values="0;5.6" dur="0.55s" begin="1.286s" fill="freeze"/>
-        <animate attributeName="y" values="178;172.4" dur="0.55s" begin="1.286s" fill="freeze"/>
+      <rect x="601.3" y="166.3" width="8.5" height="11.7" rx="1" fill="#238636">
+        <animate attributeName="height" values="0;11.7" dur="0.55s" begin="1.286s" fill="freeze"/>
+        <animate attributeName="y" values="178;166.3" dur="0.55s" begin="1.286s" fill="freeze"/>
       </rect>
     </g>
     <line x1="44" y1="178" x2="612" y2="178" stroke="#30363d"/>
@@ -236,10 +236,10 @@
     <line x1="648" y1="70" x2="648" y2="196" stroke="#21262d"/>
     
     <text x="676" y="84" font-size="9.5" letter-spacing="1.6" fill="#484f58">CONTRIBUTIONS</text>
-    <text x="676" y="110" font-size="25" font-weight="700" fill="#3fb950">5773</text>
+    <text x="676" y="110" font-size="25" font-weight="700" fill="#3fb950">5809</text>
     
     <text x="676" y="140" font-size="9.5" letter-spacing="1.6" fill="#484f58">PUBLIC REPOS</text>
-    <text x="676" y="166" font-size="25" font-weight="700" fill="#58a6ff">20</text>
+    <text x="676" y="166" font-size="25" font-weight="700" fill="#58a6ff">22</text>
     
     <text x="790" y="84" font-size="9.5" letter-spacing="1.6" fill="#484f58">BEST DAY</text>
     <text x="790" y="110" font-size="25" font-weight="700" fill="#d29922">190</text>
@@ -250,12 +250,12 @@
     <!-- language distribution -->
     <text x="44" y="228" font-size="9.5" letter-spacing="1.8" fill="#484f58">SHIPPED IN PUBLIC — BY PRIMARY LANGUAGE</text>
     <g>
-      <rect x="44.0" y="236" width="384.6" height="10" fill="#3572A5" opacity="0.85"/>
-      <rect x="428.6" y="236" width="213.7" height="10" fill="#3178c6" opacity="0.85"/>
-      <rect x="642.3" y="236" width="170.9" height="10" fill="#dea584" opacity="0.85"/>
-      <rect x="813.3" y="236" width="42.7" height="10" fill="#f1e05a" opacity="0.85"/>
+      <rect x="44.0" y="236" width="425.3" height="10" fill="#3572A5" opacity="0.85"/>
+      <rect x="469.3" y="236" width="193.3" height="10" fill="#3178c6" opacity="0.85"/>
+      <rect x="662.7" y="236" width="154.7" height="10" fill="#dea584" opacity="0.85"/>
+      <rect x="817.3" y="236" width="38.7" height="10" fill="#f1e05a" opacity="0.85"/>
       <circle cx="48" cy="262" r="3.6" fill="#3572A5"/>
-      <text x="58" y="265.5" font-size="10.5" fill="#8b949e">Python <tspan fill="#484f58">×9</tspan></text>
+      <text x="58" y="265.5" font-size="10.5" fill="#8b949e">Python <tspan fill="#484f58">×11</tspan></text>
       <circle cx="180" cy="262" r="3.6" fill="#3178c6"/>
       <text x="190" y="265.5" font-size="10.5" fill="#8b949e">TypeScript <tspan fill="#484f58">×5</tspan></text>
       <circle cx="312" cy="262" r="3.6" fill="#dea584"/>
